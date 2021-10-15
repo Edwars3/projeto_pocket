@@ -1,11 +1,11 @@
 const mongoose = require("mongoose");
 
 const dadoSchema = new mongoose.Schema({
-    Nome: {
+    nome: {
         type: String,
         required: true
     },
-    Sobrenome: {
+    sobrenome: {
         type: String,
         required: true
     },
@@ -13,11 +13,11 @@ const dadoSchema = new mongoose.Schema({
         type: Number,
         required: true
     },
-    endereço: {
+    endereco: {
         type: String,
         required: true
     },
-    Plano: {
+    plano: {
         type: String,
         required: true
     },

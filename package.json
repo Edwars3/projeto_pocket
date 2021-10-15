@@ -1,20 +1,30 @@
 {
   "name": "projeto_pocket",
   "version": "1.0.0",
-  "description": "",
   "main": "server.js",
   "scripts": {
-       "start": "nodemon server.js"
+    "start": "nodemon server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^10.0.0",
     "ejs": "^3.1.6",
     "express": "^4.17.1",
-    "mongoose": "^6.0.7"
+    "mongoose": "^6.0.10",
+    "swagger-ui-express": "^4.1.6"
   },
   "devDependencies": {
-    "nodemon": "^2.0.12"
-  }
+    "nodemon": "^2.0.13"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ravelos/projeto_pocket.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Ravelos/projeto_pocket/issues"
+  },
+  "homepage": "https://github.com/Ravelos/projeto_pocket#readme",
+  "description": ""
 }
